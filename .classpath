@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="mahout-core-0.7.jar" sourcepath="C:/Users/MT844/.m2/repository/org/apache/mahout/mahout-core/0.7/mahout-core-0.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/MT844/Dropbox/workspace/F01_CouponRecommedation2/docs/mahout-core/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="mahout-math-0.7.jar" sourcepath="/home/tuanvu/.m2/repository/org/apache/mahout/mahout-math/0.7/mahout-math-0.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/MT844/Dropbox/workspace/F01_CouponRecommedation2/docs/mahout-math/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lucene-core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="mahout-core-0.7-job.jar"/>
+	<classpathentry kind="lib" path="mahout-examples-0.7-job.jar"/>
+	<classpathentry kind="lib" path="mahout-examples-0.7.jar"/>
+	<classpathentry kind="lib" path="mahout-integration-0.7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/MT844/Dropbox/workspace/F01_CouponRecommedation2/docs/mahout-integration/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

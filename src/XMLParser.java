@@ -27,8 +27,8 @@ public class XMLParser {
 	/**
 	 * Gets the all items.
 	 *
-	 * @param fileName the file name
-	 * @return the all items
+	 * @param fileName : input file (.xml)
+	 * @return list of items
 	 */
 	public List <Item> getAllItems(String fileName) {
 		List <Item> items = null;
@@ -60,8 +60,8 @@ public class XMLParser {
 					addAttribute(merchant.item(0).getChildNodes(), tempItemObject.merchant);
 					
 					items.add(tempItemObject);
-					System.out.println("Item N0:" + items.size() );
-					tempItemObject.printItem();
+					//System.out.println("Item N0:" + items.size() );
+					//tempItemObject.printItem();
 				}
 			}
 			
@@ -80,15 +80,14 @@ public class XMLParser {
 	
 	/**
 	 * Adds the attribute.
-	 *
-	 * @param nl the nl
-	 * @param list the list
+	 * --> pass all pairs of each child tag (<name>value<name>) of a node to a list
+	 * @param nl : the node
+	 * @param list <key, value>: key(nodename) - value (node's content)
 	 */
 	private void addAttribute(NodeList nl, Map<String,String> list){
 		for(int i =0; i < nl.getLength();i++){
 			Node temp = nl.item(i);
 			String key ="", value = "";
-			//System.out.println(temp.getNodeName());
 			key = temp.getNodeName();
 			if(temp.getChildNodes().getLength()==0)
 				//System.out.println("N/A");
@@ -103,7 +102,7 @@ public class XMLParser {
 	
 	/**
 	 * Parses the value.
-	 *
+	 *---> to read all text content inside a node
 	 * @param node the node
 	 * @return the string
 	 */
@@ -130,24 +129,36 @@ public class XMLParser {
 	 * @param args the arguments
 	 */
 	public static void main (String []args){
-		String fileName = "data/coupon.xml";
+		/*String fileName = "data/coupon.xml";
 		XMLParser parser = new XMLParser();
-		List <Item> items = parser.getAllItems(fileName);
-		
-		Map<String, Integer> dealMerchant = new HashMap<>();
-		for (Item item : items) {
-			String itemId = item.deal.get("id");
-			String user = item.merchant.get("name");
-			System.out.println(itemId + "," + user);
-		}
+		List <Item> items = parser.getAllItems(fileName);*/
 	}
 }
 
+
+/*each Item instance include of  a "deal" map and a "merchant" map 
+  * corresponding to "deal" node and "merchant" node respectively
+ 	
+ */
 class Item {
+	
 	public Map<String, String> deal = new HashMap<String, String>();
 	public Map<String, String> merchant = new HashMap<String, String>();
 	public int id;
 	
+	public Map<String, String> getDeal() {
+		return deal;
+	}
+
+	public Map<String, String> getMerchant() {
+		return merchant;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	/*print Item information (id, deal, merchant)*/
 	public void printItem(){
 		System.out.println(id);
 		printMap("deal",deal);
@@ -155,6 +166,7 @@ class Item {
 		System.out.println("-----------------------------------------");
 	}
 	
+	/*print all element of a map. using for "deal" and "merchant" map */
 	public void printMap(String name,Map<String, String> mp){
 		System.out.println("----"+name);
 		//Get Map in Set interface to get key and value

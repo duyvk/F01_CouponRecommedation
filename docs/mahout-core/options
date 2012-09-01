@@ -1,0 +1,26 @@
+-classpath
+'/home/paritosh/build/trunk/target/checkout/core/target/classes:/home/paritosh/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/home/paritosh/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/paritosh/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar:/home/paritosh/.m2/repository/org/apache/lucene/lucene-analyzers/3.6.0/lucene-analyzers-3.6.0.jar:/home/paritosh/.m2/repository/org/apache/lucene/lucene-core/3.6.0/lucene-core-3.6.0.jar:/home/paritosh/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar:/home/paritosh/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/paritosh/.m2/repository/org/apache/mahout/commons/commons-cli/2.0-mahout/commons-cli-2.0-mahout.jar:/home/paritosh/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/paritosh/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/paritosh/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/home/paritosh/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.2/jackson-core-asl-1.8.2.jar:/home/paritosh/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2/uncommons-maths-1.2.2.jar:/home/paritosh/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/home/paritosh/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.2/jackson-mapper-asl-1.8.2.jar:/home/paritosh/.m2/repository/jfree/jcommon/1.0.12/jcommon-1.0.12.jar:/home/paritosh/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/home/paritosh/.m2/repository/org/apache/hadoop/hadoop-core/0.20.204.0/hadoop-core-0.20.204.0.jar:/home/paritosh/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/paritosh/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/paritosh/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/home/paritosh/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/home/paritosh/build/trunk/target/checkout/math/target/mahout-math-0.7.jar:/home/paritosh/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/paritosh/build/trunk/target/checkout/core/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2008-2012 <a href="http://www.apache.org/">The Apache Software Foundation</a>. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'/home/paritosh/build/trunk/target/checkout/core/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Mahout Core 0.7 API'
+-linkoffline
+'http://download.oracle.com/javase/6/docs/api' '/home/paritosh/build/trunk/target/checkout/core/target/javadoc-bundle-options'
+-linkoffline
+'http://mahout.apache.org/mahout-math/apidocs' '/home/paritosh/build/trunk/target/checkout/math/target/apidocs'
+-use
+-version
+-windowtitle
+'Mahout Core 0.7 API'

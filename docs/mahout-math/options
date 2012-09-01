@@ -1,0 +1,24 @@
+-classpath
+'/home/paritosh/build/trunk/target/checkout/math/target/classes:/home/paritosh/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2/uncommons-maths-1.2.2.jar:/home/paritosh/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/home/paritosh/.m2/repository/jfree/jcommon/1.0.12/jcommon-1.0.12.jar:/home/paritosh/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar:/home/paritosh/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/paritosh/build/trunk/target/checkout/math/src/main/java:/home/paritosh/build/trunk/target/checkout/math/target/generated-sources'
+-author
+-bottom
+'Copyright &#169; 2008-2012 <a href="http://www.apache.org/">The Apache Software Foundation</a>. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'/home/paritosh/build/trunk/target/checkout/math/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Mahout Math 0.7 API'
+-linkoffline
+'http://download.oracle.com/javase/6/docs/api' '/home/paritosh/build/trunk/target/checkout/math/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Mahout Math 0.7 API'
