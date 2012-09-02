@@ -1,3 +1,5 @@
+package preprocessing;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -13,6 +15,8 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
+
+import model.Coupon;
 
 
 // TODO: Auto-generated Javadoc
@@ -237,7 +241,7 @@ public class Preprocessing {
 		// remove all of irrelevant  line in  user-item rating file.
 		// Specifically, we find some tuples((user id | item id | rating | timestamp)) that have itemID that match with one of IDs in idList
 		// and put those tuples to filteredFile
-		preprocessing.filterMovieLens(idList, userItemFile, Main.filteredFile);
+		preprocessing.filterMovieLens(idList, userItemFile, "data/u.csv");
 		
 		
 		// print all id of old coupon to file data/oldID.txt

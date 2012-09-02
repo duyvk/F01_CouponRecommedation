@@ -1,0 +1,7 @@
+[{"categoryID":"1","category":"Restaurants"},
+{"categoryID":"2","category":"Entertainment"},
+{"categoryID":"3","category":"Beauty & Spa"},
+{"categoryID":"4","category":"Services"},
+{"categoryID":"6","category":"Shopping"},
+{"categoryID":"7","category":"Travel"},
+{"categoryID":"18381","category":"Groupon"}]

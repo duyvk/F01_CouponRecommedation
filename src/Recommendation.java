@@ -15,6 +15,8 @@ import java.util.Queue;
 
 import javax.security.auth.Refreshable;
 
+import model.Coupon;
+
 import org.apache.mahout.cf.taste.common.TasteException;
 import org.apache.mahout.cf.taste.impl.common.FastByIDMap;
 import org.apache.mahout.cf.taste.impl.common.LongPrimitiveIterator;
