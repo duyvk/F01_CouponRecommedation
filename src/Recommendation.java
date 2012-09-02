@@ -85,7 +85,7 @@ public class Recommendation {
 	}
 	
 	/**
-	 * Gets the top items.
+	 * Gets the top similar coupon to new coupon (newCoupondID) from the list of old coupon (idList)
 	 *
 	 * @param newCouponId the new coupon id
 	 * @param couponMap the coupon map
@@ -127,7 +127,7 @@ public class Recommendation {
 	}
 	//(2d)
 	/**
-	 * Gets the top user.
+	 * Gets the top user should be suggested, with score calculated by R += recommendedItem.getValue() * preferenceValue;
 	 *
 	 * @param resultItems the result items
 	 * @param model the model

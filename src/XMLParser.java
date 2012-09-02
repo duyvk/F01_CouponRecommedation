@@ -129,9 +129,9 @@ public class XMLParser {
 	 * @param args the arguments
 	 */
 	public static void main (String []args){
-		/*String fileName = "data/coupon.xml";
+		String fileName = "data/coupon.xml";
 		XMLParser parser = new XMLParser();
-		List <Item> items = parser.getAllItems(fileName);*/
+		List <Item> items = parser.getAllItems(fileName);
 	}
 }
 

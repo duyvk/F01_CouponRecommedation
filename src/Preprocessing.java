@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -19,7 +20,17 @@ import java.util.TreeMap;
  * The Class Preprocessing.
  */
 public class Preprocessing {
-
+	/*file contains coupon data in xml format*/
+	public static final String couponFile = "data/coupon.xml";
+	
+	/*file contains  user-item rating information  (user id | item id | rating | timestamp)*/
+	public static final String userItemFile = "100k-data/u.data";
+	
+	/*selected movieID to use as couponID*/
+	public static final String idFIle = "data/idList.txt";
+	
+	/*the number of testing "new" coupons*/
+	public static final int numberNewItem = 2;
 	/**
 	 * Extract id from movie lens data and print to idFile.
 	 *
@@ -185,5 +196,74 @@ public class Preprocessing {
 			couponMap.put(id, coupon);
 		}
 		return couponMap;
+	}
+	
+	public static void main (String args[]) throws FileNotFoundException{
+		//ItemVector.init();
+		
+		XMLParser parser = new XMLParser();
+		
+		/*
+		 * get all item from coupon file
+		 * */
+		List <Item> items = parser.getAllItems(couponFile);//(1aii1ai)
+		int itemNumber = items.size();
+		
+		Preprocessing preprocessing = new Preprocessing();
+				
+		preprocessing.extractIDFromMovieLensData(itemNumber, userItemFile, idFIle);
+
+		//get list of couponIDs (idList)
+		Set<Long> ids = preprocessing.getIdArray(idFIle);
+		List<Long> idList = new ArrayList<Long>(ids);	//(1aii1aii)	((1aiii)
+		
+		
+		/* match id from coupon with movielens data, create itemvector correspond with each coupon in coupon.xml 
+		 * return a map with key is id in movielens and matched Itemvector 
+		 */
+		//Map<Long, ItemVector> itemVectorMap = preprocessing.matchCouponWithMovie(items, idList);
+		Map<Long, Coupon> couponMap = preprocessing.matchCouponWithMovie(items, idList);//(1aii)
+		
+		
+		// newCouponids : list of new coupons (1ai) for testing new  coupons
+		List<Long> newCouponids = new ArrayList<Long>();
+		
+		// pop some ID from list of all coupons and add  them to newCouponids 
+		for (int i=0; i< numberNewItem; i++){
+
+			newCouponids.add(idList.remove(i));
+		}
+		
+		// remove all of irrelevant  line in  user-item rating file.
+		// Specifically, we find some tuples((user id | item id | rating | timestamp)) that have itemID that match with one of IDs in idList
+		// and put those tuples to filteredFile
+		preprocessing.filterMovieLens(idList, userItemFile, Main.filteredFile);
+		
+		
+		// print all id of old coupon to file data/oldID.txt
+		PrintWriter oldIdPrinWriter = new PrintWriter(new File("data/oldID.txt"));
+		for(Long id : idList){
+			oldIdPrinWriter.println(id);
+		}
+		oldIdPrinWriter.close();
+		
+		// print all id of new coupon to file data/newID.txt
+		PrintWriter newIDPrinWriter = new PrintWriter(new File("data/newID.txt"));
+		
+		for (Long id : newCouponids){
+			newIDPrinWriter.println(id);
+		}
+		
+		newIDPrinWriter.close();
+		
+		// print all coupon to file data/coupon.txt
+		PrintWriter couponPrintWriter = new PrintWriter(new File("data/coupon.txt"));
+		
+		Collection<Coupon> coupons = couponMap.values();
+		for (Coupon coupon : coupons) {
+			couponPrintWriter.println(coupon.toString());
+		}
+		
+		couponPrintWriter.close();
 	}
 }

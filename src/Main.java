@@ -1,9 +1,12 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 import org.apache.mahout.cf.taste.common.TasteException;
@@ -17,17 +20,17 @@ import org.apache.mahout.cf.taste.recommender.RecommendedItem;
  */
 public class Main {
 	
-	/*file contains coupon data in xml format*/
+	/*file contains coupon data in xml format
 	public static final String couponFile = "data/coupon.xml";
 	
-	/*file contains  user-item rating information  (user id | item id | rating | timestamp)*/
+	file contains  user-item rating information  (user id | item id | rating | timestamp)
 	public static final String userItemFile = "100k-data/u.data";
 	
-	/*selected movieID to use as couponID*/
-	public static final String idFIle = "100k-data/idMovie.txt";
+	selected movieID to use as couponID
+	public static final String idFIle = "data/idList.txt";*/
 	
 	/*input to build data model*/
-	public static final String filteredFile = "100k-data/u.csv"; //(2aii1ai)
+	public static final String filteredFile = "data/u.csv"; //(2aii1ai)
 	
 	/*the number of testing "new" coupons*/
 	public static final int numberNewItem = 2;
@@ -53,11 +56,11 @@ public class Main {
 	public static void main(String[] args) throws IOException, TasteException {
 		//ItemVector.init();
 		
-		XMLParser parser = new XMLParser();
+		/*XMLParser parser = new XMLParser();
 		
-		/*
+		
 		 * get all item from coupon file
-		 * */
+		 * 
 		List <Item> items = parser.getAllItems(couponFile);//(1aii1ai)
 		int itemNumber = items.size();
 		
@@ -70,9 +73,9 @@ public class Main {
 		List<Long> idList = new ArrayList<Long>(ids);	//(1aii1aii)	((1aiii)
 		
 		
-		/* match id from coupon with movielens data, create itemvector correspond with each coupon in coupon.xml 
+		 match id from coupon with movielens data, create itemvector correspond with each coupon in coupon.xml 
 		 * return a map with key is id in movielens and matched Itemvector 
-		 */
+		 
 		//Map<Long, ItemVector> itemVectorMap = preprocessing.matchCouponWithMovie(items, idList);
 		Map<Long, Coupon> couponMap = preprocessing.matchCouponWithMovie(items, idList);//(1aii)
 		
@@ -89,14 +92,14 @@ public class Main {
 		// remove all of irrelevant  line in  user-item rating file.
 		// Specifically, we find some tuples((user id | item id | rating | timestamp)) that have itemID that match with one of IDs in idList
 		// and put those tuples to filteredFile
-		preprocessing.filterMovieLens(idList, userItemFile, filteredFile);
-
-
+		preprocessing.filterMovieLens(idList, userItemFile, filteredFile);*/
+		List<Long> newCouponids = loadIDFile("data/newID.txt");
+		List<Long> idList = loadIDFile("data/oldID.txt");	//(1aii1aii)	((1aiii)
 		/*
 		 * load user - item data to model object (mahout)
 		 * 
 		 * */
-		
+		Map<Long, Coupon> couponMap = loadCouponFile("data/coupon.txt");
 		//DataModel model = new FileDataModel(new File(filteredFile));
 		
 		Recommendation.predictModel(filteredFile, NEIGHBOR_NUM, ITEM_RECOMMEN_NUM, ROOT_PREDICTED_MODEL_FILE);//(2aii1)
@@ -154,5 +157,43 @@ public class Main {
 		
 		outItemSimilarity.close();
 		userSuggestion.close();
+	}
+	
+	/**
+	 * Load id file.
+	 *
+	 * @param fileName the id file
+	 * @return the list of all id
+	 * @throws FileNotFoundException the file not found exception
+	 */
+	public static List<Long> loadIDFile(String fileName) throws FileNotFoundException{
+		List<Long> list = new ArrayList<>();
+		Scanner scanner = new Scanner(new File(fileName));
+		while (scanner.hasNextLong()){
+			list.add(scanner.nextLong());
+		}
+		
+		scanner.close();
+		
+		return list;
+	}
+	
+	/**
+	 * Load coupon file.
+	 *
+	 * @param fileName the file of coupon
+	 * @return the map with id is key and coupon is value
+	 * @throws FileNotFoundException the file not found exception
+	 */
+	public static Map<Long, Coupon> loadCouponFile(String fileName) throws FileNotFoundException{
+		Map<Long, Coupon> map = new HashMap<>();
+		Scanner scanner = new Scanner(new File(fileName));
+		while(scanner.hasNextLine()){
+			Coupon coupon = new Coupon(scanner.nextLine());
+			map.put(coupon.getId(), coupon);
+		}
+		scanner.close();
+		
+		return map;
 	}
 }
