@@ -8,7 +8,7 @@ import java.util.TreeMap;
 // TODO: Auto-generated Javadoc
 /**
  * The Class MapValueSort.
- * Phase:
+ * Phase: preprocessing
  * Purpose:
  * Input:
  * Output:

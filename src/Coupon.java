@@ -4,11 +4,12 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class Coupon.
- * Phase: 
+ * Phase: in phrase calculate similarity of two coupon
  * Purpose: Coupon object
  * Input:
  * Output:
@@ -70,7 +71,7 @@ public class Coupon {
 	}
 	
 	/**
-	 * Instantiates a new coupon.
+	 * Instantiates a new coupon 
 	 *
 	 * @param item the item
 	 */
@@ -99,6 +100,24 @@ public class Coupon {
 		longitude = ProcessData.removeStopwords(merchant.get("longitude"));		
 		
 		latitude = ProcessData.removeStopwords(merchant.get("latitude"));
+	}
+	
+	/**
+	 * Instantiates a new coupon using from coupon file
+	 *
+	 * @param couponString the coupon string
+	 */
+	public Coupon(String couponString){
+		String [] stringArray = couponString.split("\\|");
+		this.id = Integer.parseInt(stringArray[0]);
+		this.discount = stringArray[1];
+		this.title = stringArray[2];
+		this.category = stringArray[3];
+		this.price = stringArray[4];
+		this.description = stringArray[5];
+		this.latitude = stringArray[6];
+		this.longitude = stringArray[7];
+		this.expiration = stringArray[8];
 	}
 
 	/**
@@ -387,6 +406,24 @@ public class Coupon {
 		System.out.println("-----------------id: " + id);
 	}
 	
+	/* return string of coupon object
+	 * @see java.lang.Object#toString()
+	 */
+	public String toString(){
+		StringBuilder builder = new StringBuilder();
+		builder.append(id);
+		builder.append("|" + discount);
+		builder.append("|" + title);
+		builder.append("|" + category);
+		builder.append("|" + price);
+		builder.append("|" + description);
+		builder.append("|" + latitude);
+		builder.append("|" + longitude);
+		builder.append("|" + expiration);
+		
+		return builder.toString();
+	}
+	
 	// Threshsol for 18 attributes
 		/** The threshold. */
 	static int[] threshold = { 0, 2, 1, 1, 1, 1, 1, 2, 1, 1, 3, 3, 3, 1,
@@ -403,8 +440,15 @@ public class Coupon {
 	 * @throws FileNotFoundException the file not found exception
 	 */
 	public static void main(String []args) throws FileNotFoundException{
+		Scanner scanner = new Scanner(new File("data/coupon.txt"));
+		while(scanner.hasNextLine()){
+			Coupon coupon = new Coupon(scanner.nextLine());
+			coupon.printCoupon();
+		}
+		scanner.close();
 		
-		Coupon.printWriter = new PrintWriter(new File("coupon.txt"));
+		
+		/*Coupon.printWriter = new PrintWriter(new File("coupon.txt"));
 		
 		XMLParser parser = new XMLParser();
 		List <Item> items = parser.getAllItems("data/coupon.xml");
@@ -420,7 +464,7 @@ public class Coupon {
 			i++;
 		}
 		
-		Coupon.printWriter.close();
+		Coupon.printWriter.close();*/
 		
 		/*for (int i=0; i<arrayList.size(); i++){
 			for (int j= i + 1; j<arrayList.size(); j++){

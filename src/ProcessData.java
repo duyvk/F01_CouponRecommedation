@@ -3,6 +3,9 @@
 import java.util.HashSet;
 import java.util.StringTokenizer;
 
+/**
+ * The Class ProcessData.
+ */
 public class ProcessData {
 	public static String[] s_stopWords = { "m", "a", "about", "above", "above",
 			"across", "after", "afterwards", "again", "against", "all",
@@ -113,6 +116,7 @@ public class ProcessData {
 		}
 	}
 	
+	// Compute similarity using number
 	public static double simByNumber(String first, String second,
 			int threshold) {
 		if(first.trim().compareTo("null")==0 || second.trim().compareTo("null")==0) {
