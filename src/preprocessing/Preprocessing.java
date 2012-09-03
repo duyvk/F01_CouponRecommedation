@@ -241,7 +241,11 @@ public class Preprocessing {
 		// remove all of irrelevant  line in  user-item rating file.
 		// Specifically, we find some tuples((user id | item id | rating | timestamp)) that have itemID that match with one of IDs in idList
 		// and put those tuples to filteredFile
+<<<<<<< HEAD:src/preprocessing/Preprocessing.java
 		preprocessing.filterMovieLens(idList, userItemFile, "data/u.csv");
+=======
+		preprocessing.filterMovieLens(idList, userItemFile, Main.filteredFile);
+>>>>>>> origin/master:src/Preprocessing.java
 		
 		
 		// print all id of old coupon to file data/oldID.txt

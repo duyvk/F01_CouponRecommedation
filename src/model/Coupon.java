@@ -6,8 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+<<<<<<< HEAD:src/model/Coupon.java
 
 import preprocessing.Item;
+=======
+>>>>>>> origin/master:src/Coupon.java
 
 // TODO: Auto-generated Javadoc
 /**
