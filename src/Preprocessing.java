@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -17,20 +20,24 @@ import java.util.TreeMap;
 
 // TODO: Auto-generated Javadoc
 /**
- * The Class Preprocessing.
+ * The Class Pre-processing.
+ * Preparing data for recommendation model
  */
 public class Preprocessing {
-	/*file contains coupon data in xml format*/
+	/** The Constant couponFile: file contains coupon data in xml format */
 	public static final String couponFile = "data/coupon.xml";
 	
-	/*file contains  user-item rating information  (user id | item id | rating | timestamp)*/
+	/** The Constant userItemFile: file contains  user-item rating information 
+	 *  (user id | item id | rating | timestamp)
+	 */
 	public static final String userItemFile = "100k-data/u.data";
 	
-	/*selected movieID to use as couponID*/
+	/** The Constant idFIle: selected movieID to use as couponID */
 	public static final String idFIle = "data/idList.txt";
 	
-	/*the number of testing "new" coupons*/
+	/** The Constant numberNewItem : the number of testing "new" coupons */
 	public static final int numberNewItem = 2;
+	
 	/**
 	 * Extract id from movie lens data and print to idFile.
 	 *
@@ -78,7 +85,7 @@ public class Preprocessing {
 	
 	/**
 	 * Gets the id array.
-	 *
+	 * get a set of numbers in a file 
 	 * @param idFile the id file
 	 * @return the id array
 	 */
@@ -98,13 +105,14 @@ public class Preprocessing {
 		return ids;
 	}
 	
-	
 	/**
 	 * Filter movie lens.
-	 *
+	 * filter all rating record (userID-itemID-rating) with itemID contained 
+	 * in a specific list
+	 * 
 	 * @param ids the ids
-	 * @param movieFile the movie file
-	 * @param filteredMovieFile the filtered movie file
+	 * @param movieFile the movie file (userID | itemID | rating)
+	 * @return filteredMovieFile the filtered movie file
 	 */
 	public void filterMovieLens(List<Long> ids, String movieFile, String filteredMovieFile){
 		try {
@@ -133,7 +141,7 @@ public class Preprocessing {
 
 	/**
 	 * Gets the coupon list.
-	 *
+	 * get Coupon list from Item list (raw)
 	 * @param items the items
 	 * @return the coupon list
 	 */
@@ -198,8 +206,13 @@ public class Preprocessing {
 		return couponMap;
 	}
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 * @throws FileNotFoundException the file not found exception
+	 */
 	public static void main (String args[]) throws FileNotFoundException{
-		//ItemVector.init();
 		
 		XMLParser parser = new XMLParser();
 		

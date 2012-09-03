@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -14,9 +17,11 @@ import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
 
+// TODO: Auto-generated Javadoc
 /**
- * @author Administrator
+ * The Class Main.
  *
+ * @author Administrator
  */
 public class Main {
 	
@@ -30,9 +35,11 @@ public class Main {
 	public static final String idFIle = "data/idList.txt";*/
 	
 	/*input to build data model*/
+	/** The Constant filteredFile. */
 	public static final String filteredFile = "data/u.csv"; //(2aii1ai)
 	
 	/*the number of testing "new" coupons*/
+	/** The Constant numberNewItem. */
 	public static final int numberNewItem = 2;
 
 	/*
@@ -40,9 +47,13 @@ public class Main {
 	 * number item recommend:
 	 * */
 	
+	/** The neighbor num. */
 	public static int NEIGHBOR_NUM = 3;
+	
+	/** The item recommen num. */
 	public static int ITEM_RECOMMEN_NUM = 5;
 	
+	/** The Constant ROOT_PREDICTED_MODEL_FILE. */
 	public static final String ROOT_PREDICTED_MODEL_FILE = "100k-data/temp/new-u";
 	//(2aii1aiv)
 	
@@ -167,7 +178,7 @@ public class Main {
 	 * @throws FileNotFoundException the file not found exception
 	 */
 	public static List<Long> loadIDFile(String fileName) throws FileNotFoundException{
-		List<Long> list = new ArrayList<>();
+		List<Long> list = new ArrayList<Long>();
 		Scanner scanner = new Scanner(new File(fileName));
 		while (scanner.hasNextLong()){
 			list.add(scanner.nextLong());
@@ -186,7 +197,7 @@ public class Main {
 	 * @throws FileNotFoundException the file not found exception
 	 */
 	public static Map<Long, Coupon> loadCouponFile(String fileName) throws FileNotFoundException{
-		Map<Long, Coupon> map = new HashMap<>();
+		Map<Long, Coupon> map = new HashMap<Long, Coupon>();
 		Scanner scanner = new Scanner(new File(fileName));
 		while(scanner.hasNextLine()){
 			Coupon coupon = new Coupon(scanner.nextLine());

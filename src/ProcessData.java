@@ -1,12 +1,16 @@
 
-
 import java.util.HashSet;
 import java.util.StringTokenizer;
 
+// TODO: Auto-generated Javadoc
 /**
  * The Class ProcessData.
+ *  Pre-processing data (remove stopwords, counting...) 
+ *  and computing the similarity between 2 string/numeric data
  */
 public class ProcessData {
+	
+	/** The s_stop words. */
 	public static String[] s_stopWords = { "m", "a", "about", "above", "above",
 			"across", "after", "afterwards", "again", "against", "all",
 			"almost", "alone", "along", "already", "also", "although",
@@ -55,9 +59,13 @@ public class ProcessData {
 			"would", "yet", "you", "your", "yours", "yourself", "yourselves",
 			"the" };
 
+	/** The stopwords. */
 	public static HashSet<String> stopwords = new HashSet<String>(
 			s_stopWords.length);
 
+	/**
+	 * Instantiates a new process data.
+	 */
 	public ProcessData() {
 		for (String s : s_stopWords) {
 			stopwords.add(s);
@@ -65,6 +73,13 @@ public class ProcessData {
 	}
 
 	// Common Words
+	/**
+	 * Count common word.
+	 *
+	 * @param firstString the first string
+	 * @param secondString the second string
+	 * @return the int
+	 */
 	public static int countCommonWord(String firstString, String secondString) {
 		int numberCommonWord = 0;
 		String[] firstTokens = firstString.split(" ");
@@ -81,11 +96,23 @@ public class ProcessData {
 	}
 
 	// Check stopword
+	/**
+	 * Checks if is stopword.
+	 *
+	 * @param s the s
+	 * @return true, if is stopword
+	 */
 	public static boolean isStopword(String s) {
 		return stopwords.contains(s);
 	}
 
 	// Remove Stopwords
+	/**
+	 * Removes the stopwords.
+	 *
+	 * @param beRemovedString the be removed string
+	 * @return the string
+	 */
 	public static String removeStopwords(String beRemovedString) {
 		String resultString = new String();
 		StringTokenizer tokenizer = new StringTokenizer(beRemovedString);
@@ -99,7 +126,14 @@ public class ProcessData {
 		return resultString;
 	}
 
-	// Compute similarity using commond word
+	/**
+	 * Compute similarity between 2 string using the number of common words
+	 *
+	 * @param first the first
+	 * @param second the second
+	 * @param threshold the threshold
+	 * @return the double
+	 */
 	public static double simByCommonWord(String first, String second,
 			int threshold) {
 		if(first.equals("null") && second.equals("null")){
@@ -117,6 +151,15 @@ public class ProcessData {
 	}
 	
 	// Compute similarity using number
+	/**
+	 * Compare 2 numeric data. They are accepted to be "similar" 
+	 * if their difference is not larger than threshold.
+	 *
+	 * @param first the first
+	 * @param second the second
+	 * @param threshold the threshold
+	 * @return the double
+	 */
 	public static double simByNumber(String first, String second,
 			int threshold) {
 		if(first.trim().compareTo("null")==0 || second.trim().compareTo("null")==0) {

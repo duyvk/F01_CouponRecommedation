@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -41,12 +44,25 @@ public class MapValueSort {
          }
 	}
 
+	
+	/**
+	 * Prints the map.
+	 *
+	 * @param data the data
+	 */
+	private static void printMap(Map<Integer, Integer> data) {
+		for (Iterator<Integer> iter = data.keySet().iterator(); iter.hasNext();) {
+			Integer key = iter.next();
+			System.out.println(key+ "--" + data.get(key));
+		}
+	}
+	
 	/**
 	 * The main method.
-	 *
+	 * (for testing only)
 	 * @param args the arguments
 	 */
-	public static void main(String[] args){
+	/*public static void main(String[] args){
 		
 		Map<Integer, Integer> unsortedData = new HashMap<Integer, Integer>();
 		unsortedData.put(1, 4);
@@ -63,17 +79,5 @@ public class MapValueSort {
 		System.out.println();
 		printMap(sortedData);
 	}
-
-	/**
-	 * Prints the map.
-	 *
-	 * @param data the data
 	 */
-	private static void printMap(Map<Integer, Integer> data) {
-		for (Iterator<Integer> iter = data.keySet().iterator(); iter.hasNext();) {
-			Integer key = iter.next();
-			System.out.println(key+ "--" + data.get(key));
-		}
-	}
-	
 }

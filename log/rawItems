@@ -1,0 +1,825 @@
+Root element of the document: root
+Total items: 30
+#0
+0
+----deal
+--------link : http://lesserthan.com/deal/1399613/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2393/6103/IMAGE_Bados-Cucina_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2393%2F6103%2FIMAGE_Bados-Cucina_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2012-11-15T04:59:59Z
+--------discount : 50%
+--------id : 1399613
+--------title : Save 50% at Bado’s Cucina
+--------category : Other
+--------price : $20
+--------source : Groupon
+--------description : Italian Tapas Cuisine on a Weekday or Weekend at Bado's Cucina (Half Off). Limit 1 per person. Limit 1 per table. Weekend option not valid until 08/24/12. Valid only for option purchased. Reservations required on weekends. Not valid on Sunday or Monday. Dine-in only. Not valid for the purchase of alcohol. Must use promotional value in 1 visit.
+--------value : $40
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2393%2F6103%2FIMAGE_Bados-Cucina_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15317
+--------address : 3825 Washington Rd
+--------website : http://www.badoscucina.com/
+--------name : Bado’s Cucina
+--------state : PA
+--------longitude : -80.1262
+--------latitude : 40.2747
+--------city : Canonsburg
+-----------------------------------------
+#1
+0
+----deal
+--------link : http://lesserthan.com/deal/1401795/?key=1&source=api
+--------image : http://a1.ak.lscdn.net/imgs/8d29aea3-4ad4-44a6-8eae-307a4788720e.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fa1.ak.lscdn.net%2Fimgs%2F8d29aea3-4ad4-44a6-8eae-307a4788720e.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : N/A
+--------discount : 56%
+--------id : 1401795
+--------title : Save 56% at Cosmetic Solutions
+--------category : Health & Beauty
+--------price : $199
+--------source : LivingSocial
+--------description : Permanent Eyeliner on Upper and Lower Eyelids. Limit 1 per purchaser, 1 additional as gift 
+• Limit 1 voucher per person 
+• Valid for natural looks only; not valid for touch-ups or return visits 
+• All services must be redeemed during a single visit by same customer
+--------value : $450
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fa1.ak.lscdn.net%2Fimgs%2F8d29aea3-4ad4-44a6-8eae-307a4788720e.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15317
+--------address : 673 Morganza Road
+--------website : N/A
+--------name : Cosmetic Solutions
+--------state : PA
+--------longitude : -80.1535
+--------latitude : 40.2985
+--------city : Canonsburg
+-----------------------------------------
+#2
+0
+----deal
+--------link : http://lesserthan.com/deal/1399612/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2391/7295/IMAGE_Pittsburgh-Clo_Dixies-Tupperware-P_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2391%2F7295%2FIMAGE_Pittsburgh-Clo_Dixies-Tupperware-P_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2012-09-08T03:59:59Z
+--------discount : 49%
+--------id : 1399612
+--------title : Save 49% at "Dixie's Tupperware Party"
+--------category : Entertainment
+--------price : $20
+--------source : Groupon
+--------description : $20 to See Pittsburgh CLO’s “Dixie’s Tupperware Party” at The Cabaret at Theater Square (Up to $44.75 Value). Valid only for option purchased. Must purchase together to sit together. CLO Cabaret is the issuer of tickets. No specific seating requests can be accommodated. Must provide first and last name, and shipping address at checkout, which Groupon will provide to facilitate redemption of voucher.  Refundable only on day of purchase.  Discount reflects Pittsburgh CLO's current ticket prices-price may differ on day of the event. Tickets will be mailed by August 24th.
+--------value : $39
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2391%2F7295%2FIMAGE_Pittsburgh-Clo_Dixies-Tupperware-P_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15222
+--------address : 655 Penn Ave.
+--------website : http://www.pittsburghclo.org/shows/view/52/refer:upcoming-shows
+--------name : "Dixie's Tupperware Party"
+--------state : PA
+--------longitude : -80.001
+--------latitude : 40.4431
+--------city : Pittsburgh
+-----------------------------------------
+#3
+0
+----deal
+--------link : http://lesserthan.com/deal/1384044/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2389/9665/IMAGE_The-Hott-Spot-Extreme-Wellness_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2389%2F9665%2FIMAGE_The-Hott-Spot-Extreme-Wellness_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2013-02-07T04:59:59Z
+--------discount : 63%
+--------id : 1384044
+--------title : Save 63% at The Hott Spot Extreme Wellness
+--------category : Health & Beauty
+--------price : $39
+--------source : Groupon
+--------description : One or Two 60-Minute Massages with Foot Soaks at The Hott Spot Extreme Wellness (Up to 64% Off). Limit 1 per person, may buy 2 additional as gifts. Limit 1 per visit. Valid only for option purchased. Appointment required. 24hr cancellation notice required. Must use promotional value in 1 visit. May redeem 2-pack option over 2 visits. All services must be used by the same person.
+--------value : $105
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2389%2F9665%2FIMAGE_The-Hott-Spot-Extreme-Wellness_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15017
+--------address : 614 Washington Ave.
+--------website : http://thehottspotextremewellness.com/
+--------name : The Hott Spot Extreme Wellness
+--------state : PA
+--------longitude : -80.1131
+--------latitude : 40.357
+--------city : Bridgeville
+-----------------------------------------
+#4
+0
+----deal
+--------link : http://lesserthan.com/deal/1385855/?key=1&source=api
+--------image : http://a4.ak.lscdn.net/imgs/beca7a00-db2e-4f5b-a45d-d387711ac05f.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fa4.ak.lscdn.net%2Fimgs%2Fbeca7a00-db2e-4f5b-a45d-d387711ac05f.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : N/A
+--------discount : 50%
+--------id : 1385855
+--------title : Save 50% at ReJeneSys Aesthetics Center
+--------category : Health & Beauty
+--------price : $199
+--------source : LivingSocial
+--------description : Three Fractional Skin-Resurfacing Treatments. Limit 1 per purchaser, up to 2 additional as gifts
+• Limit 1 redemption per person
+• May be used over multiple visits
+• All services must be redeemed by same customer
+• Valid only at location selected at time of purchase
+--------value : $400
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fa4.ak.lscdn.net%2Fimgs%2Fbeca7a00-db2e-4f5b-a45d-d387711ac05f.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15213
+--------address : 144 South 20th Street
+--------website : N/A
+--------name : ReJeneSys Aesthetics Center
+--------state : PA
+--------longitude : -79.978
+--------latitude : 40.4264
+--------city : Pittsburgh
+-----------------------------------------
+#5
+0
+----deal
+--------link : http://lesserthan.com/deal/1384040/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2376/1503/IMAGE_Nu-Life-Cleaners_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2376%2F1503%2FIMAGE_Nu-Life-Cleaners_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2012-12-07T04:59:59Z
+--------discount : 50%
+--------id : 1384040
+--------title : Save 50% at Nu-Life Cleaners
+--------category : Retail & Services
+--------price : $20
+--------source : Groupon
+--------description : Wedding-Dress Preservation or $20 for $40 Worth of Dry-Cleaning Services at Nu-Life Cleaners. Limit 1 per person, may buy 1 additional as a gift. In-store only. Not valid for laundry services. Not valid for delivery. Must use promotional value in 1 visit.
+--------value : $40
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2376%2F1503%2FIMAGE_Nu-Life-Cleaners_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15217
+--------address : 5613 Hobart St.
+--------website : http://nulifecleaners.weebly.com/
+--------name : Nu-Life Cleaners
+--------state : PA
+--------longitude : -79.9271
+--------latitude : 40.4328
+--------city : Pittsburgh
+-----------------------------------------
+#6
+0
+----deal
+--------link : http://lesserthan.com/deal/1369512/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2384/4826/IMAGE_Glow-Fitness-Studio_yoga_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2384%2F4826%2FIMAGE_Glow-Fitness-Studio_yoga_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2013-02-07T04:59:59Z
+--------discount : 71%
+--------id : 1369512
+--------title : Save 71% at Glow Fitness Studio
+--------category : Health & Beauty
+--------price : $29
+--------source : Groupon
+--------description : 10 or 15 Fitness Classes at Glow Fitness Studio (Up to 75% Off). Limit 1 per person, may buy 2 additional as gifts. Limit 1 per visit. Must activate by expiration date, must redeem in full within 90 days of activation date. Valid only for option purchased. Online registration required for first class. Must sign waiver. Classes must be used by the same person. May redeem over visits. Valid for new clients or those who have not used services within the past 6 months.
+--------value : $100
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2384%2F4826%2FIMAGE_Glow-Fitness-Studio_yoga_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15228
+--------address : 663 Washington Rd.
+--------website : http://www.doyouglow.com/
+--------name : Glow Fitness Studio
+--------state : PA
+--------longitude : -80.0442
+--------latitude : 40.3815
+--------city : Pittsburgh
+-----------------------------------------
+#7
+0
+----deal
+--------link : http://lesserthan.com/deal/1369511/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2387/4908/IMAGE_Dent-Al-Smiles2_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2387%2F4908%2FIMAGE_Dent-Al-Smiles2_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2013-02-07T04:59:59Z
+--------discount : 78%
+--------id : 1369511
+--------title : Save 78% at Dent-Al Smiles
+--------category : Health & Beauty
+--------price : $89
+--------source : Groupon
+--------description : $89 for BleachBright UV-Light System In-Office Teeth Whitening at Dent-Al Smiles ($400 Value). Limit 1 per person, may buy 1 additional as a gift. Limit 1 per visit. Appointment required.
+--------value : $400
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2387%2F4908%2FIMAGE_Dent-Al-Smiles2_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15206
+--------address : 242 S Highland Ave.
+--------website : http://www.dent-alsmiles.com/index.html
+--------name : Dent-Al Smiles
+--------state : PA
+--------longitude : -79.9253
+--------latitude : 40.4577
+--------city : Pittsburgh
+-----------------------------------------
+#8
+0
+----deal
+--------link : http://lesserthan.com/deal/1353542/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2389/1807/IMAGE_Castrol-Quick-Lube-and-Car-Care_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2389%2F1807%2FIMAGE_Castrol-Quick-Lube-and-Car-Care_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2013-02-07T04:59:59Z
+--------discount : 50%
+--------id : 1353542
+--------title : Save 50% at Castrol Quick Lube & Car Care
+--------category : Retail & Services
+--------price : $18
+--------source : Groupon
+--------description : Oil Change or Oil-Change Package at Castrol Quick Lube & Car Care (Up to 55% Off). Three Options Available.. Limit 2 per person, may buy 1 additional as a gift. Limit 1 per visit. Valid only for option purchased. Appointment required for full-service oil change or oil change and inspection package. Valid for up to 5 quarts of standard oil. Extra fee for synthetic oil. Must use promotional value in 1 visit.
+--------value : $36
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2389%2F1807%2FIMAGE_Castrol-Quick-Lube-and-Car-Care_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15102
+--------address : 2865 Industrial Blvd.
+--------website : http://www.castrol.com
+--------name : Castrol Quick Lube & Car Care
+--------state : PA
+--------longitude : -80.0381
+--------latitude : 40.3276
+--------city : Bethel Park
+-----------------------------------------
+#9
+0
+----deal
+--------link : http://lesserthan.com/deal/1353543/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2388/8050/IMAGE_FeelNu-Medical-Spa-2_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2388%2F8050%2FIMAGE_FeelNu-Medical-Spa-2_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2013-02-07T04:59:59Z
+--------discount : 69%
+--------id : 1353543
+--------title : Save 69% at FeelNu Medical Spa
+--------category : Health & Beauty
+--------price : $125
+--------source : Groupon
+--------description : 4, 6, or 8 Microdermabrasions, or 2 IPL Photofacials with 2 Microdermabrasions at FeelNu Medical Spa (Up to 73% Off). Limit 1 per person, may buy 1 additional as gifts. Limit 1 per visit. Valid only for option purchased. Appointment required. 24hr cancellation notice required. May redeem across visits. All services must be used by the same person.
+--------value : $400
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2388%2F8050%2FIMAGE_FeelNu-Medical-Spa-2_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15136
+--------address : 5855 Steubenville Pike
+--------website : http://feelnu.com/contact/
+--------name : FeelNu Medical Spa
+--------state : PA
+--------longitude : -80.1395
+--------latitude : 40.4501
+--------city : Pittsburgh
+-----------------------------------------
+#10
+0
+----deal
+--------link : http://lesserthan.com/deal/1335393/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2379/7906/IMAGE_E2-Toys2Try-LLC_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2379%2F7906%2FIMAGE_E2-Toys2Try-LLC_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2012-11-08T04:59:59Z
+--------discount : 50%
+--------id : 1335393
+--------title : Save 50% at E2 Toys2Try, LLC
+--------category : Entertainment
+--------price : $12
+--------source : Groupon
+--------description : $12 for Three Indoor-Playground Visits at E2 Toys2Try, LLC  (Up to $24 value). Limit 2 per person, may buy 1 additional as gifts. Must redeem in full by expiration date. May split visits between people. Valid for ages 6 and under. Must wear socks.
+--------value : $24
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2379%2F7906%2FIMAGE_E2-Toys2Try-LLC_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15220
+--------address : 2101 Greentree Rd.
+--------website : http://www.toys2try.com/
+--------name : E2 Toys2Try, LLC
+--------state : PA
+--------longitude : -80.0742
+--------latitude : 40.3907
+--------city : Pittsburgh
+-----------------------------------------
+#11
+0
+----deal
+--------link : http://lesserthan.com/deal/1335392/?key=1&source=api
+--------image : https://s3.grouponcdn.com/images/site_images/2379/5975/IMAGE_Alchemy-N-Ale2_medium.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2379%2F5975%2FIMAGE_Alchemy-N-Ale2_medium.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 2012-11-08T04:59:59Z
+--------discount : 50%
+--------id : 1335392
+--------title : Save 50% at Alchemy N’ Ale
+--------category : Food & Drink
+--------price : $10
+--------source : Groupon
+--------description : Pub Food at Alchemy N' Ale (Half Off). Two Options Available.. Limit 1 per person. Limit 1 per table. Valid only for option purhcased. Dine-in only. Not valid for the purchase of alcohol.
+--------value : $20
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=https%3A%2F%2Fs3.grouponcdn.com%2Fimages%2Fsite_images%2F2379%2F5975%2FIMAGE_Alchemy-N-Ale2_medium.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15201
+--------address : 5147 Butler St.
+--------website : http://www.alchemynalepgh.com/
+--------name : Alchemy N’ Ale
+--------state : PA
+--------longitude : -79.9552
+--------latitude : 40.4797
+--------city : Pittsburgh
+-----------------------------------------
+#12
+0
+----deal
+--------link : http://lesserthan.com/deal/1174813/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/988159_DTD_BillsGolfland1563-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F988159_DTD_BillsGolfland1563-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174813
+--------title : Save 50% at Bill's Golfland
+--------category : Entertainment
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For 4 Rounds Of Mini Golf & 1 Jumbo Bucket Of Golf Balls ($30 Value). Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F988159_DTD_BillsGolfland1563-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15012
+--------address : 210 Bills Lane
+--------website : N/A
+--------name : Bill's Golfland
+--------state : PA
+--------longitude : -79.8127
+--------latitude : 40.1827
+--------city : Belle Vernon
+-----------------------------------------
+#13
+0
+----deal
+--------link : http://lesserthan.com/deal/1174814/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/991468_DTD_ChaneysNatural1563-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F991468_DTD_ChaneysNatural1563-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174814
+--------title : Save 50% at Chaney's Natural Health & Wellness
+--------category : Health & Beauty
+--------price : $35
+--------source : DoubleTakeDeals
+--------description : $35 For A Manicure & Pedicure ($70 Value). Certificate not valid for purchase of gift cards. Must present coupon at time of service.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.   Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $70
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F991468_DTD_ChaneysNatural1563-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15063
+--------address : 138 W Main St
+--------website : N/A
+--------name : Chaney's Natural Health & Wellness
+--------state : PA
+--------longitude : -79.9235
+--------latitude : 40.2008
+--------city : Monongahela
+-----------------------------------------
+#14
+0
+----deal
+--------link : http://lesserthan.com/deal/1174815/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/983434_DTD_AngelosII1563-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F983434_DTD_AngelosII1563-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174815
+--------title : Save 50% at Angelo’s II
+--------category : Food & Drink
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Italian Food. One certificate per table. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F983434_DTD_AngelosII1563-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15063
+--------address : 111 3RD ST
+--------website : N/A
+--------name : Angelo’s II
+--------state : PA
+--------longitude : -79.9249
+--------latitude : 40.2029
+--------city : Monongahela
+-----------------------------------------
+#15
+0
+----deal
+--------link : http://lesserthan.com/deal/1174682/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/986469_DTD_CountryConfections224-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986469_DTD_CountryConfections224-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174682
+--------title : Save 50% at Country Confections Chocolates
+--------category : Food & Drink
+--------price : $50
+--------source : DoubleTakeDeals
+--------description : $50 For $100 Worth Of Chocolates Or Corporate Gift Basket Purchases. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $100
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986469_DTD_CountryConfections224-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15317
+--------address : 2500 Washington Road
+--------website : N/A
+--------name : Country Confections Chocolates
+--------state : PA
+--------longitude : -80.1632
+--------latitude : 40.255
+--------city : Canonsburg
+-----------------------------------------
+#16
+0
+----deal
+--------link : http://lesserthan.com/deal/1174696/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/988973_DTD_BurnettFamilyChiro224-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F988973_DTD_BurnettFamilyChiro224-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 72%
+--------id : 1174696
+--------title : Save 72% at Burnett Family Chiropractic & Sports Performance
+--------category : Health & Beauty
+--------price : $250
+--------source : DoubleTakeDeals
+--------description : $250 For Three Lipo Laser Sessions ($900 Value). Certificate valid for one year. Certificate not valid for purchase of gift cards. Individual must meet with a doctor before beginning Lipo Laser sessions.  If you have a history of thyroid disease, metabolic disorders, or any form of cancer, are pregnant or lactating, the patient will not be eligible for Lipo Laser.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.   Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $900
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F988973_DTD_BurnettFamilyChiro224-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15317
+--------address : 3540 Washington Rd.
+--------website : N/A
+--------name : Burnett Family Chiropractic & Sports Performance
+--------state : PA
+--------longitude : -80.1216
+--------latitude : 40.2836
+--------city : Mc Murray
+-----------------------------------------
+#17
+0
+----deal
+--------link : http://lesserthan.com/deal/1174700/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/989678_DTD_Rose222-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989678_DTD_Rose222-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174700
+--------title : Save 50% at The Rose
+--------category : Food & Drink
+--------price : $20
+--------source : DoubleTakeDeals
+--------description : $20 For $40 Worth  Of Casual Dining (Purchaser Will Receive 2-$20 Certificates). One certificate per table. Certificate not valid for purchase of gift cards.  18% gratuity will be added to the check before the discount. Not valid at Comedy Club.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.   Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $40
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989678_DTD_Rose222-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15131
+--------address : 2811 Lincoln Way
+--------website : N/A
+--------name : The Rose
+--------state : PA
+--------longitude : -79.7832
+--------latitude : 40.3239
+--------city : White Oak
+-----------------------------------------
+#18
+0
+----deal
+--------link : http://lesserthan.com/deal/1174683/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/986721_DTD_DorothysCandies266-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986721_DTD_DorothysCandies266-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174683
+--------title : Save 50% at Dorothy's Candies
+--------category : Food & Drink
+--------price : $10
+--------source : DoubleTakeDeals
+--------description : $10 For $20 Worth Of Fine Chocolates. One certificate per day. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.   Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $20
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986721_DTD_DorothysCandies266-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15131
+--------address : 1228 Long Run Rd.
+--------website : N/A
+--------name : Dorothy's Candies
+--------state : PA
+--------longitude : -79.8115
+--------latitude : 40.3349
+--------city : White Oak
+-----------------------------------------
+#19
+0
+----deal
+--------link : http://lesserthan.com/deal/1174651/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/987689_DTD_ItalianOvenGiannaVias180-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F987689_DTD_ItalianOvenGiannaVias180-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174651
+--------title : Save 50% at Italian Oven Restaurant - Gianna Via's Restaurant & Bar
+--------category : Food & Drink
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Italian Dining. Certificate valid for one year. One certificate per table. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws. No cash or credit back. Each certificate must be used in one visit. Not valid on tax or gratuity. Limit one certificate per visit. Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F987689_DTD_ItalianOvenGiannaVias180-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15236
+--------address : 5301 Grove Road
+--------website : N/A
+--------name : Italian Oven Restaurant - Gianna Via's Restaurant & Bar
+--------state : PA
+--------longitude : -79.9808
+--------latitude : 40.3366
+--------city : Pittsburgh
+-----------------------------------------
+#20
+0
+----deal
+--------link : http://lesserthan.com/deal/1174652/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/989939_DTD_PapaGallo124-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989939_DTD_PapaGallo124-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174652
+--------title : Save 50% at PapaGallo
+--------category : Food & Drink
+--------price : $10
+--------source : DoubleTakeDeals
+--------description : $10 For $20 Worth  Of Casual Dining. One certificate per table. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.   Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $20
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989939_DTD_PapaGallo124-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15017
+--------address : 1567 Washington Pk
+--------website : N/A
+--------name : PapaGallo
+--------state : PA
+--------longitude : -80.0536
+--------latitude : 40.3477
+--------city : Bridgeville
+-----------------------------------------
+#21
+0
+----deal
+--------link : http://lesserthan.com/deal/1174754/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/986764_DTD_PeaceOfEden180-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986764_DTD_PeaceOfEden180-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174754
+--------title : Save 50% at A Peace Of Eden Spa
+--------category : Health & Beauty
+--------price : $32.5
+--------source : DoubleTakeDeals
+--------description : $32.50 For A One-Hour Swedish Massage ($65 Value). Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws. No cash or credit back. Each certificate must be used in one visit. Not valid on tax or gratuity. Limit one certificate per visit unless merchant allows more. Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $65
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986764_DTD_PeaceOfEden180-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15236
+--------address : 4871 Clairton Blvd
+--------website : N/A
+--------name : A Peace Of Eden Spa
+--------state : PA
+--------longitude : -79.9761
+--------latitude : 40.3498
+--------city : Pittsburgh
+-----------------------------------------
+#22
+0
+----deal
+--------link : http://lesserthan.com/deal/1174745/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/989641_DTD_FruitFlowers175-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989641_DTD_FruitFlowers175-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174745
+--------title : Save 50% at Fruit Flowers
+--------category : Food & Drink
+--------price : $20
+--------source : DoubleTakeDeals
+--------description : $20 For $40 Worth Of Fruit Flowers (Purchaser Will Receive 2-$20 Certificates). Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $40
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989641_DTD_FruitFlowers175-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15017
+--------address : 3249 Washington Pike
+--------website : N/A
+--------name : Fruit Flowers
+--------state : PA
+--------longitude : -80.1101
+--------latitude : 40.3562
+--------city : Bridgeville
+-----------------------------------------
+#23
+0
+----deal
+--------link : http://lesserthan.com/deal/1174753/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/986751_DTD_WestwoodBarGrill180-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986751_DTD_WestwoodBarGrill180-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174753
+--------title : Save 50% at Westwood Bar & Grill
+--------category : Food & Drink
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Casual Fine Dining. One certificate per table. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F986751_DTD_WestwoodBarGrill180-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15122
+--------address : 825 Commonwealth Ave
+--------website : N/A
+--------name : Westwood Bar & Grill
+--------state : PA
+--------longitude : -79.8825
+--------latitude : 40.3767
+--------city : West Mifflin
+-----------------------------------------
+#24
+0
+----deal
+--------link : http://lesserthan.com/deal/1174699/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/989185_DTD_StationBrakeCafe154222-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989185_DTD_StationBrakeCafe154222-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174699
+--------title : Save 50% at Station Brake Cafe
+--------category : Food & Drink
+--------price : $20
+--------source : DoubleTakeDeals
+--------description : $20 For $40 Worth Of Dinner Fare (Purchaser Will Receive 2-$20 Certificates). One certificate per table. Certificate not valid for purchase of gift cards. Not valid on alcohol, take-out or holidays.  Call restaurant prior to arrival to verify validity.  .
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $40
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F989185_DTD_StationBrakeCafe154222-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15148
+--------address : 500 Station St.
+--------website : N/A
+--------name : Station Brake Cafe
+--------state : PA
+--------longitude : -79.8102
+--------latitude : 40.3934
+--------city : Wilmerding
+-----------------------------------------
+#25
+0
+----deal
+--------link : http://lesserthan.com/deal/1174740/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/988101_DTD_Applelicious175-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F988101_DTD_Applelicious175-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174740
+--------title : Save 50% at Applecious
+--------category : Food & Drink
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Chocolate Gourmet Apples, Pretzels & Other Treats. One certificate per customer. Certificate not valid for purchase of gift cards. Not valid on online orders or wedding items. Not valid 11-30-12 through 12-31-12.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F988101_DTD_Applelicious175-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15106
+--------address : 415 w.main st
+--------website : N/A
+--------name : Applecious
+--------state : PA
+--------longitude : -80.0925
+--------latitude : 40.4038
+--------city : Carnegie
+-----------------------------------------
+#26
+0
+----deal
+--------link : http://lesserthan.com/deal/1174707/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/990529_DTD_JLGrillCompany199-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F990529_DTD_JLGrillCompany199-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 9/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174707
+--------title : Save 50% at J&L Grill Co
+--------category : Food & Drink
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Food & Drink. One certificate per table. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws. No cash or credit back. Each certificate must be used in one visit. Not valid on tax or gratuity. Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F990529_DTD_JLGrillCompany199-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15203
+--------address : 2928 East Carson St.
+--------website : N/A
+--------name : J&L Grill Co
+--------state : PA
+--------longitude : -79.9633
+--------latitude : 40.4247
+--------city : Pittsburgh
+-----------------------------------------
+#27
+0
+----deal
+--------link : http://lesserthan.com/deal/1174678/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/985308_DTD_Tolericos154-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F985308_DTD_Tolericos154-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174678
+--------title : Save 50% at Tolerico's
+--------category : Food & Drink
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Classic Italian American Food. One certificate per table, per party. Certificate not valid for purchase of gift cards. Not valid for alcohol. Not valid on holidays.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F985308_DTD_Tolericos154-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15146
+--------address : 2525 Monroeville Blvd
+--------website : N/A
+--------name : Tolerico's
+--------state : PA
+--------longitude : -79.7888
+--------latitude : 40.4281
+--------city : Monroeville
+-----------------------------------------
+#28
+0
+----deal
+--------link : http://lesserthan.com/deal/1174714/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/991262_DTD_ForwardLanes199-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F991262_DTD_ForwardLanes199-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174714
+--------title : Save 50% at Forward Lanes
+--------category : Health & Beauty
+--------price : $20
+--------source : DoubleTakeDeals
+--------description : $20 For $40 Bowling Package (4 People, 2 Games Each & Shoe Rentals). Certificate not valid for purchase of gift cards. Based on lane availability.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $40
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F991262_DTD_ForwardLanes199-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15217
+--------address : 5844 Forward ave.
+--------website : N/A
+--------name : Forward Lanes
+--------state : PA
+--------longitude : -79.9223
+--------latitude : 40.4294
+--------city : Pittsburgh
+-----------------------------------------
+#29
+0
+----deal
+--------link : http://lesserthan.com/deal/1174709/?key=1&source=api
+--------image : http://www.doubletakedeals.com/WebServices/ImageHandler2.ashx?width=200&height=240&image=DealImage/990785_DTD_ColorMeMine199-image-sq.jpg
+--------image_thumb_retina : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F990785_DTD_ColorMeMine199-image-sq.jpg&w=200&h=126&zc=1&q=90
+--------coupon_expiration : 3/4/2013 11:59:59 PM
+--------discount : 50%
+--------id : 1174709
+--------title : Save 50% at Color Me Mine
+--------category : Entertainment
+--------price : $15
+--------source : DoubleTakeDeals
+--------description : $15 For $30 Worth Of Painting & Pottery. Certificate not valid for purchase of gift cards.
+
+Merchant will abide by gift certificate state laws.  No cash or credit back.  Each certificate must be used in one visit.  Not valid on tax or gratuity.  Limit one certificate per visit.  Certificate cannot be used in conjunction with any other certificate, coupon, special or promotion.
+--------value : $30
+--------image_thumb : http://lesserthan.com/includes/scripts/timthumb.php?src=http%3A%2F%2Fwww.doubletakedeals.com%2FWebServices%2FImageHandler2.ashx%3Fwidth%3D200%26height%3D240%26image%3DDealImage%2F990785_DTD_ColorMeMine199-image-sq.jpg&w=100&h=63&zc=1&q=90
+----merchant
+--------zip : 15217
+--------address : 5887 Forbes Ave
+--------website : N/A
+--------name : Color Me Mine
+--------state : PA
+--------longitude : -79.9198
+--------latitude : 40.4381
+--------city : Pittsburgh
+-----------------------------------------

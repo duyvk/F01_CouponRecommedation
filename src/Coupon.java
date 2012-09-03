@@ -53,7 +53,7 @@ public class Coupon {
 	 * @param description the description
 	 * @param latitude the latitude
 	 * @param longitude the longitude
-	 * @param expiration the expiration
+	 * @param expiration the expiration date
 	 * @param id : coupon ID
 	 */
 	public Coupon(String discount, String title, String category, String price,
@@ -71,9 +71,11 @@ public class Coupon {
 	}
 	
 	/**
-	 * Instantiates a new coupon 
-	 *
-	 * @param item the item
+	 * Instantiates a new coupon.
+	 *	pre-processing an item retrieved from xml file 
+	 *  and pass it to a new declared Coupon
+	 *  
+	 * @param item the item is retrieved from raw xml file
 	 */
 	public Coupon(Item item){
 		this.id = item.getId();
@@ -103,8 +105,9 @@ public class Coupon {
 	}
 	
 	/**
-	 * Instantiates a new coupon using from coupon file
-	 *
+	 * Instantiates a new coupon from coupon file.
+	 * each line is formatted : id | discount | title ....
+	 * 
 	 * @param couponString the coupon string
 	 */
 	public Coupon(String couponString){
@@ -283,10 +286,10 @@ public class Coupon {
 	}
 
 	/**
-	 * Discount sim.
+	 * Measuring the similarity between "discount" field of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score in term of "discount" information 
 	 * @return the double
 	 */
 	public double discountSim(Coupon other, int threshold){
@@ -294,10 +297,10 @@ public class Coupon {
 	}
 	
 	/**
-	 * Tittle sim.
+	 * Measuring the similarity between "title" field of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score in term of "title" information 
 	 * @return the double
 	 */
 	public double tittleSim(Coupon other, int threshold){
@@ -305,10 +308,10 @@ public class Coupon {
 	}
 	
 	/**
-	 * Category sim.
+	 * Measuring the similarity between "category" field of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score in term of "category" information 
 	 * @return the double
 	 */
 	public double categorySim(Coupon other, int threshold){
@@ -316,10 +319,10 @@ public class Coupon {
 	}
 	
 	/**
-	 * Price sim.
+	 * Measuring the similarity between "price" field of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score in term of "price" information 
 	 * @return the double
 	 */
 	public double priceSim(Coupon other, int threshold){
@@ -327,10 +330,10 @@ public class Coupon {
 	}
 	
 	/**
-	 * Description sim.
+	 * Measuring the similarity between "description" field of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score in term of "description" information 
 	 * @return the double
 	 */
 	public double descriptionSim(Coupon other, int threshold){
@@ -338,10 +341,10 @@ public class Coupon {
 	}
 	
 	/**
-	 * Gps sim.
+	 * Measuring the similarity between "GPS" field of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score in term of location coordinates information 
 	 * @return the double
 	 */
 	public double gpsSim(Coupon other, int threshold){
@@ -362,11 +365,11 @@ public class Coupon {
 	}
 	
 	/**
-	 * Similar to.
+	 * Measuring the similarity of 2 coupons
 	 *
-	 * @param other the other
-	 * @param threshold the threshold
-	 * @param featureWeights the feature weights
+	 * @param other the other coupon
+	 * @param threshold the threshold of similarity score
+	 * @param featureWeights the weights for all features respectively
 	 * @return the double
 	 */
 	public double similarTo(Coupon other, int[] threshold,
@@ -409,6 +412,9 @@ public class Coupon {
 	/* return string of coupon object
 	 * @see java.lang.Object#toString()
 	 */
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
 	public String toString(){
 		StringBuilder builder = new StringBuilder();
 		builder.append(id);
@@ -424,22 +430,21 @@ public class Coupon {
 		return builder.toString();
 	}
 	
-	// Threshsol for 18 attributes
-		/** The threshold. */
+		/** Threshold of similarity score for 18 attributes */
 	static int[] threshold = { 0, 2, 1, 1, 1, 1, 1, 2, 1, 1, 3, 3, 3, 1,
 			1, 2, 1, 1 };
-		// features weight
+	
 		/** The feature weights. */
 		public static double[] featureWeights = { 0, 8, 10, 10, 10, 8, 5, 4, 8, 4,
 			4, 2, 8, 10, 10, 6, 5, 5 };
 	
 	/**
 	 * The main method.
-	 *
+	 * 	(for testing only)
 	 * @param args the arguments
 	 * @throws FileNotFoundException the file not found exception
 	 */
-	public static void main(String []args) throws FileNotFoundException{
+	/*public static void main(String []args) throws FileNotFoundException{
 		Scanner scanner = new Scanner(new File("data/coupon.txt"));
 		while(scanner.hasNextLine()){
 			Coupon coupon = new Coupon(scanner.nextLine());
@@ -448,7 +453,7 @@ public class Coupon {
 		scanner.close();
 		
 		
-		/*Coupon.printWriter = new PrintWriter(new File("coupon.txt"));
+		Coupon.printWriter = new PrintWriter(new File("coupon.txt"));
 		
 		XMLParser parser = new XMLParser();
 		List <Item> items = parser.getAllItems("data/coupon.xml");
@@ -464,12 +469,12 @@ public class Coupon {
 			i++;
 		}
 		
-		Coupon.printWriter.close();*/
+		Coupon.printWriter.close();
 		
-		/*for (int i=0; i<arrayList.size(); i++){
+		for (int i=0; i<arrayList.size(); i++){
 			for (int j= i + 1; j<arrayList.size(); j++){
 				System.out.println(arrayList.get(i).similarTo(arrayList.get(j), threshold, featureWeights));
 			}
-		}*/
-	}
+		}
+	}*/
 }

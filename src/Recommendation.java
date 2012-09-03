@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -47,8 +50,7 @@ public class Recommendation {
 	/** The feature weights. */
 	public static double[] featureWeights = { 0, 8, 10, 10, 10, 8, 5, 4};
 	
-	/** The maximum number of similar items that should be fetch 
-	 * when comparing an item and the rest */
+	/** The maximum number of similar items that should be fetch when comparing an item and the rest. */
 	public static int maxSimilarityItem = 10;
 	
 	/** The maximum number of users who new item should be suggested to. */
@@ -63,8 +65,9 @@ public class Recommendation {
 	/** list of all couponID. */
 	private List<Long> idList;
 	
-	/* map <couponID - coupon data>. 
-	 * Notice:coupon data doesn't contain couponId right now*/
+	/** The coupon map.map <couponID - coupon data>. 
+	 *  Notice:coupon data doesn't contain couponId right now
+	 */
 	private Map<Long, Coupon> couponMap;
 	
 	
@@ -85,7 +88,7 @@ public class Recommendation {
 	}
 	
 	/**
-	 * Gets the top similar coupon to new coupon (newCoupondID) from the list of old coupon (idList)
+	 * Gets the top similar coupon to new coupon (newCoupondID) from the list of old coupon (idList).
 	 *
 	 * @param newCouponId the new coupon id
 	 * @param couponMap the coupon map
@@ -161,7 +164,6 @@ public class Recommendation {
 			  		}
 				}
 			}
-			
 		}
 		
 		int size = topUsers.size();
@@ -226,8 +228,6 @@ public class Recommendation {
 			Recommender recommender = new GenericUserBasedRecommender(model, neighborhood, similarity);
 			
 			LongPrimitiveIterator iterator = model.getUserIDs();
-			
-			
 			
 			PrintWriter printWriter = new PrintWriter(new File(predictedModelFile+ i + ".csv"));
 			

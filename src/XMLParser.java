@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -81,6 +84,7 @@ public class XMLParser {
 	/**
 	 * Adds the attribute.
 	 * --> pass all pairs of each child tag (<name>value<name>) of a node to a list
+	 * 
 	 * @param nl : the node
 	 * @param list <key, value>: key(nodename) - value (node's content)
 	 */
@@ -102,7 +106,8 @@ public class XMLParser {
 	
 	/**
 	 * Parses the value.
-	 *---> to read all text content inside a node
+	 * --> to read all text content inside a node
+	 * 
 	 * @param node the node
 	 * @return the string
 	 */
@@ -131,14 +136,18 @@ public class XMLParser {
 	public static void main (String []args){
 		String fileName = "data/coupon.xml";
 		XMLParser parser = new XMLParser();
-		List <Item> items = parser.getAllItems(fileName);
+		ArrayList <Item> items = (ArrayList<Item>) parser.getAllItems(fileName);
+		for(int i = 0 ; i < items.size(); i ++){
+			System.out.println("#" + i);
+			items.get(i).printItem();
+		}
 	}
 }
 
-
-/*each Item instance include of  a "deal" map and a "merchant" map 
-  * corresponding to "deal" node and "merchant" node respectively
- 	
+/**
+ * Item class
+ * each Item instance include of  a "deal" map and a "merchant" map 
+ * corresponding to "deal" node and "merchant" node respectively
  */
 class Item {
 	
@@ -153,12 +162,14 @@ class Item {
 	public Map<String, String> getMerchant() {
 		return merchant;
 	}
-
+	
 	public int getId() {
 		return id;
 	}
 
-	/*print Item information (id, deal, merchant)*/
+	/**
+	 * print Item information (id, deal, merchant)
+	 */
 	public void printItem(){
 		System.out.println(id);
 		printMap("deal",deal);
@@ -166,7 +177,9 @@ class Item {
 		System.out.println("-----------------------------------------");
 	}
 	
-	/*print all element of a map. using for "deal" and "merchant" map */
+	/**
+	 * print all element of a map. using for "deal" and "merchant" map 
+	 */
 	public void printMap(String name,Map<String, String> mp){
 		System.out.println("----"+name);
 		//Get Map in Set interface to get key and value
